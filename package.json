@@ -1,0 +1,34 @@
+{
+  "name": "savesnip",
+  "version": "1.0.0",
+  "description": "A storage area for commonly used cod snippets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cw123hb/savesnip.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "mongoose",
+    "ejs",
+    "express"
+  ],
+  "author": "cw123hb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cw123hb/savesnip/issues"
+  },
+  "homepage": "https://github.com/cw123hb/savesnip#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "highlight.js": "^10.4.0",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.15"
+  }
+}
