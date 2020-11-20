@@ -23,7 +23,6 @@ const languageSchema = Schema({
     snippets: [snippetSchema]
 });
 
-
 const Snippet = mongoose.model('Snippet', snippetSchema);
 const Language = mongoose.model('Language', languageSchema);
 
@@ -35,6 +34,26 @@ const python = new Language({
 const javascript = new Language({
     _id: new mongoose.Types.ObjectId(),
     name: 'JavaScript'
+    });
+
+const work = new Language({
+    _id: new mongoose.Types.ObjectId(),
+    name: 'Work'
+    });
+
+const UX = new Language({
+    _id: new mongoose.Types.ObjectId(),
+    name: 'UX'
+    });
+
+const usability = new Language({
+    _id: new mongoose.Types.ObjectId(),
+    name: 'Usability'
+    });
+
+const it = new Language({
+    _id: new mongoose.Types.ObjectId(),
+    name: 'IT'
     });
 
 app.post('/addlang', function (req,res) { 
