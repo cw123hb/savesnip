@@ -36,26 +36,6 @@ const javascript = new Language({
     name: 'JavaScript'
     });
 
-const work = new Language({
-    _id: new mongoose.Types.ObjectId(),
-    name: 'Work'
-    });
-
-const UX = new Language({
-    _id: new mongoose.Types.ObjectId(),
-    name: 'UX'
-    });
-
-const usability = new Language({
-    _id: new mongoose.Types.ObjectId(),
-    name: 'Usability'
-    });
-
-const it = new Language({
-    _id: new mongoose.Types.ObjectId(),
-    name: 'IT'
-    });
-
 app.post('/addlang', function (req,res) { 
     let langName = req.body.langName;
     const newLang = new Language({
